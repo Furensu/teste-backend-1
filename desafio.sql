@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `desafio` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `default`;
+CREATE DATABASE  IF NOT EXISTS desafio ;
+USE desafio;
 -- MySQL dump 10.13  Distrib 8.0.13, for Linux (x86_64)
 --
 -- Host: 127.0.0.1    Database: default
@@ -21,7 +21,7 @@ USE `default`;
 -- Table structure for table `alternatives`
 --
 
-DROP TABLE IF EXISTS `alternatives`;
+
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
 CREATE TABLE `alternatives` (
